@@ -94,10 +94,10 @@ public class AdminServiceImpl implements IAdminService {
 		question.setIsApproved(true);
 		question = questionRepo.save(question);
 
-//		List<Admin> admins = adminRepo.findAll();
-//		for (Admin admin : admins) {
-//			sendMail(admin.getEmail(), "Question Added");
-//		}
+		List<Admin> admins = adminRepo.findAll();
+		for (Admin admin : admins) {
+			sendMail(admin.getEmail(), "Question Added");
+		}
 		// a mail should go to the list of admins that the question is approved
 
 		return question;
@@ -110,12 +110,12 @@ public class AdminServiceImpl implements IAdminService {
 		answer.setIsApproved(true);
 		answer = answerRepo.save(answer);
 
-//		List<Admin> admins = adminRepo.findAll();
-//		for (Admin admin : admins) {
-//			sendMail(admin.getEmail(), "Answer Added");
-//		}
+		List<Admin> admins = adminRepo.findAll();
+		for (Admin admin : admins) {
+			sendMail(admin.getEmail(), "Answer Added");
+		}
 
-		// a mail should go to the damin that a answer is published
+		// a mail should go to the admin that a answer is published
 		return answer;
 	}
 
