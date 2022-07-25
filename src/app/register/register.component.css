@@ -1,0 +1,59 @@
+.body{
+    /* background-color: rgb(250, 250, 250); */
+    background-image: linear-gradient(to bottom, lightblue, purple );
+    width: 100%;
+    height: 75%;
+    margin-top: 88px;
+}
+
+.register {
+    background-color: whitesmoke;
+    width: 30%;
+    margin: auto;
+    border: 3px solid black;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 500;
+    /* color: rgb(92, 92, 124); */
+    color: red;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.registerButton{
+    text-align: center;
+}
+
+Button:hover {
+    background-color: rgb(74, 74, 237);
+}
+.btn{
+    color: red;
+    border: 1px solid red;
+    margin-right: 10px;
+}
+.btn:hover{
+    color: white;
+    border: 1px solid whitesmoke;
+    background-color: red;
+
+}
+p {
+    text-align: center;
+    margin: 15px 0 10px 0;
+    color: red;
+}
+p:hover{
+    color: lightcoral;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: lightcoral;
+}

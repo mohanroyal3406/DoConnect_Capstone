@@ -1,0 +1,21 @@
+.navbar{
+    top:0;
+    position: absolute;
+    width: 100%;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 45%;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}

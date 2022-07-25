@@ -1,0 +1,55 @@
+<div class="body">
+  <div class="login">
+    <form
+      ngNativeValidate
+      #userlogin="ngForm"
+      (ngSubmit)="userLogin(userlogin.value)"
+    >
+      <div class="email">
+        <label for="login" class="container"> <h2>Login</h2> </label><br />
+        <label for="exampleInputEmail1" class="form-label">Email </label>
+        <input
+          ngModel
+          name="email"
+          type="email"
+          class="form-control"
+          placeholder="john321@gmail.com"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          required
+        />
+        <br />
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input
+          ngModel
+          name="password"
+          type="password"
+          class="form-control"
+          placeholder="************"
+          id="exampleInputPassword1"
+          required
+        />
+      </div>
+      <div class="loginButton">
+        <button type="submit" class="btn btn-outline-primary">Login</button>
+      </div>
+    </form>
+    <a
+      routerLink="/register"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+    >
+      <p>Fresher?</p></a
+    >
+  
+  <!-- <li> -->
+    <a
+      routerLink="/admin-login"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+    >
+      <p>Admin</p>
+    </a>
+  <!-- </li> -->
+</div>
+</div>
