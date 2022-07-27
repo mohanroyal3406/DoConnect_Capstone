@@ -1,9 +1,6 @@
 package com.wipro.doconnect.util;
 
-/**
-*
-*@author kunal
-*/
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
@@ -18,7 +15,7 @@ public class EmailSenderService {
 	public void sendEmail(String toEmail, String subject, String body) {
 
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("kunalwithkumar@gmail.com");
+		message.setFrom("niharroyal521@gmail.com.com");
 		message.setTo(toEmail);
 		message.setText(body);
 		message.setSubject(subject);

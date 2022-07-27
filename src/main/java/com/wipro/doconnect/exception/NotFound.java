@@ -1,10 +1,5 @@
 package com.wipro.doconnect.exception;
 
-/**
-*
-*@author kunal
-*/
-
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 

@@ -1,9 +1,6 @@
 package com.wipro.doconnect.controller;
 
-/**
-*
-*@author kunal
-*/
+
 
 import java.util.List;
 

@@ -1,9 +1,6 @@
 package com.wipro.doconnect.repository;
 
-/**
-*
-*@author kunal
-*/
+
 
 import java.util.List;
 

@@ -1,9 +1,6 @@
 package com.wipro.doconnect.dto;
 
-/**
-*
-*@author kunal
-*/
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

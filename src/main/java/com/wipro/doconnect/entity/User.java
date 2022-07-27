@@ -1,9 +1,5 @@
 package com.wipro.doconnect.entity;
 
-/**
-*
-*@author kunal
-*/
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

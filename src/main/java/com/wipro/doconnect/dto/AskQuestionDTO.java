@@ -1,9 +1,6 @@
 package com.wipro.doconnect.dto;
 
-/**
-*
-*@author kunal
-*/
+
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
